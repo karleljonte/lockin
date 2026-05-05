@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientsplash"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+
+
+    <!-- Logo placeholder (you'll add image later) -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/logo"
+        android:contentDescription="Logo"
+        android:visibility="visible" />
+
+    <!-- MAIN TEXT -->
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOCK IN"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:letterSpacing="0.2"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- SUB TEXT -->
+    <TextView
+        android:id="@+id/tagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Focus. Grind. Win."
+        android:textColor="#AAAAAA"
+        android:textSize="16sp"/>
+
+</LinearLayout>
